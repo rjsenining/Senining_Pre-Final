@@ -15,6 +15,7 @@ class _AppState extends State<App> {
       theme: ThemeData(
         primaryColor: Colors.orange,
       ),
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         key: _scaffoldState,
         appBar: AppBar(
